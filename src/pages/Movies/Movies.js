@@ -43,7 +43,6 @@ const Movies = () => {
         toast.error('Error! Please try again');
         console.log(error);
       } finally {
-        console.log('finally');
         setIsLoading(false);
       }
     };

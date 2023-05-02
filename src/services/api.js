@@ -8,13 +8,11 @@ export const getTrending = async page => {
   const { data } = await axios.get(
     `trending/movie/week?page=${page}&language=en-US`
   );
-  console.log(data);
   return data;
 };
 
 export const getOneMovie = async id => {
   const { data } = await axios.get(`movie/${id}?language=en-US`);
-  console.log(data);
   return data;
 };
 
@@ -27,7 +25,6 @@ export const getSearchMovies = async (query, page) => {
 
 export const getCastMovie = async id => {
   const { data } = await axios.get(`movie/${id}/credits?language=en-US`);
-  console.log(data);
   return data;
 };
 
