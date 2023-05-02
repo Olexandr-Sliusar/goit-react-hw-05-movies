@@ -1,0 +1,9 @@
+.searchResultText {
+  font-size: 16px;
+  margin: 0 20px 20px;
+}
+
+.accent {
+  color: orangered;
+  font-weight: 500;
+}

@@ -1,0 +1,48 @@
+.moviesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 225px);
+  gap: 10px;
+  padding-bottom: 16px;
+  justify-content: center;
+  width: 100%;
+}
+
+.moviesItem {
+  position: relative;
+  border: 1px solid #c8c8c8;
+  list-style: none;
+}
+
+.moviesItem img {
+  margin: 0 auto;
+}
+
+.moviesItem a {
+  color: #000;
+  text-decoration: none;
+}
+
+.movieTitle {
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.moviesItem:hover,
+.moviesItem:focus {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.rating {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #e9ff22;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding: 5px;
+  border-radius: 25%;
+
+}
